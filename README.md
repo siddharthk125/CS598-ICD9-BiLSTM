@@ -1,6 +1,6 @@
 # Reproduction Instructions
 
-This repository contains the code to reproduce the results presented in the paper "BiLSTM-based ICD-9 Code Assignment from Clinical Text". The code was originally implemented in Python 3.7.6 with PyTorch 1.6.0.
+This repository contains the code to reproduce the results presented in the paper "A disease inference method based on symptom extraction and bidirectional Long Short Term Memory networks"
 
 ## Citation to the Original Paper
 
@@ -44,7 +44,7 @@ Preprocessing was done using MetaMapLite. We used MetaMapLite over MetaMap, due 
 This command will preprocess the data and save the MetaMap file to the corresponding directory.
 
 
-This command will evaluate the model on the test set and save the evaluation results to the `results.txt` file.
+This command will evaluate the model on the test set and save the evaluation results to the `document-id.mmi` file.
 
 ## Table of Results
 The study was conducted on 2 datasets -
