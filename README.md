@@ -6,7 +6,7 @@ This repository contains the code to reproduce the results presented in the pape
 
 If you use the code or results presented in this repository, please cite the original paper:
 
-   Donglin Guo, Guihua Duan, Ying Yu, Yaohang Li, Fang-Xiang Wu, Min Li, A disease inference method based on symptom extraction and bidirectional Long Short Term Memory networks, Methods, Volume 173, 2020, Pages 75-82,ISSN 1046-2023
+   ```Donglin Guo, Guihua Duan, Ying Yu, Yaohang Li, Fang-Xiang Wu, Min Li, A disease inference method based on symptom extraction and bidirectional Long Short Term Memory networks, Methods, Volume 173, 2020, Pages 75-82,ISSN 1046-2023```
 
 ## Dependencies
 
@@ -30,8 +30,8 @@ The original paper used the MIMIC-III dataset, which can be obtained from https:
 
 Once the data is obtained, the `data` directory should contain the following files:
 
-- `NOTEEVENTS.csv`: Contains the clinical notes associated with a Hospital Admission ID (HADMID), which is used as the predictor
-- `DIAGNOSES_ICD.csv.gz`: Contains the ICD9 code of the disease that has been diagnosed for a patient in a given visit marked by a HADMID
+- `NOTEEVENTS.csv`: Contains the clinical notes associated with a Hospital Admission ID (`HADMID`), which is used as the predictor
+- `DIAGNOSES_ICD.csv.gz`: Contains the ICD9 code of the disease that has been diagnosed for a patient in a given visit marked by a `HADMID`
 
 ## Preprocessing Code + Command
 
